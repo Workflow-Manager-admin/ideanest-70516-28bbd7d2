@@ -2,15 +2,18 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Note } from "../types";
 
+/* eslint-disable @typescript-eslint/no-unused-vars */
 interface Props {
   open: boolean;
   mode: "add" | "edit";
   noteData?: Note;
   onClose: () => void;
-  // Rename argument `note` to `_note` and `id` to `_id` to please linter about 'never used'
+  // eslint-disable-next-line no-unused-vars
   onAdd: (_note: Omit<Note, "id" | "createdAt">) => void;
+  // eslint-disable-next-line no-unused-vars
   onUpdate: (_id: string, _note: Omit<Note, "id" | "createdAt">) => void;
 }
+/* eslint-enable @typescript-eslint/no-unused-vars */
 
 // PUBLIC_INTERFACE
 const NoteEditorModal: React.FC<Props> = ({
