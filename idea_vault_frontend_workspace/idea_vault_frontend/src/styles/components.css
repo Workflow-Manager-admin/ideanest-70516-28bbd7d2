@@ -1,0 +1,18 @@
+::-webkit-scrollbar {
+  width: 7px;
+  background: var(--bg-muted);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--card-border);
+  border-radius: 7px;
+}
+
+.notes-list {
+  overflow-y: auto;
+  max-height: 70vh;
+}
+body, .vault-root {
+  min-height: 100vh;
+  margin: 0 !important;
+  background: var(--bg);
+}
