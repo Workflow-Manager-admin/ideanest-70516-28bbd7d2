@@ -3,73 +3,7 @@
 > vite dev --host 0.0.0.0 --port 3000
 
 
-  VITE v6.2.5  ready in 163 ms
+  VITE v6.2.5  ready in 155 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
-6:50:18 AM [vite] (client) page reload index.html
-6:50:19 AM [vite] (client) ✨ new dependencies optimized: react/jsx-dev-runtime, react, react-dom/client
-6:50:34 AM [vite] (client) page reload src/components/NoteEditorModal.tsx
-6:50:47 AM [vite] (client) page reload src/components/NoteEditorModal.tsx
-6:50:48 AM [vite] (client) Pre-transform error: Transform failed with 1 error:
-/home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/src/components/NoteEditorModal.tsx:11:42: ERROR: Unexpected "=>"
-  Plugin: vite:esbuild
-  File: /home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/src/components/NoteEditorModal.tsx:11:42
-  
-  Unexpected "=>"
-  9  |    onClose: () => void;
-  10 |    // Rename argument `note` to `_note` and `id` to `_id` to please linter about 'never used'
-  11 |    onAdd: (Omit<Note, "id" | "createdAt">) => void;
-     |                                            ^
-  12 |    onUpdate: (string, Omit<Note, "id" | "createdAt">) => void;
-  13 |  }
-  
-6:50:49 AM [vite] Internal server error: Transform failed with 1 error:
-/home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/src/components/NoteEditorModal.tsx:11:42: ERROR: Unexpected "=>"
-  Plugin: vite:esbuild
-  File: /home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/src/components/NoteEditorModal.tsx:11:42
-  
-  Unexpected "=>"
-  9  |    onClose: () => void;
-  10 |    // Rename argument `note` to `_note` and `id` to `_id` to please linter about 'never used'
-  11 |    onAdd: (Omit<Note, "id" | "createdAt">) => void;
-     |                                            ^
-  12 |    onUpdate: (string, Omit<Note, "id" | "createdAt">) => void;
-  13 |  }
-  
-      at failureErrorWithLog (/home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/node_modules/esbuild/lib/main.js:1477:15)
-      at /home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/node_modules/esbuild/lib/main.js:756:50
-      at responseCallbacks.<computed> (/home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/node_modules/esbuild/lib/main.js:623:9)
-      at handleIncomingPacket (/home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/node_modules/esbuild/lib/main.js:678:12)
-      at Socket.readFromStdout (/home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/node_modules/esbuild/lib/main.js:601:7)
-      at Socket.emit (node:events:517:28)
-      at addChunk (node:internal/streams/readable:368:12)
-      at readableAddChunk (node:internal/streams/readable:341:9)
-      at Readable.push (node:internal/streams/readable:278:10)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
-6:50:50 AM [vite] Internal server error: Transform failed with 1 error:
-/home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/src/components/NoteEditorModal.tsx:11:42: ERROR: Unexpected "=>"
-  Plugin: vite:esbuild
-  File: /home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/src/components/NoteEditorModal.tsx:11:42
-  
-  Unexpected "=>"
-  9  |    onClose: () => void;
-  10 |    // Rename argument `note` to `_note` and `id` to `_id` to please linter about 'never used'
-  11 |    onAdd: (Omit<Note, "id" | "createdAt">) => void;
-     |                                            ^
-  12 |    onUpdate: (string, Omit<Note, "id" | "createdAt">) => void;
-  13 |  }
-  
-      at failureErrorWithLog (/home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/node_modules/esbuild/lib/main.js:1477:15)
-      at /home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/node_modules/esbuild/lib/main.js:756:50
-      at responseCallbacks.<computed> (/home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/node_modules/esbuild/lib/main.js:623:9)
-      at handleIncomingPacket (/home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/node_modules/esbuild/lib/main.js:678:12)
-      at Socket.readFromStdout (/home/kavia/workspace/code-generation/ideanest-70516-28bbd7d2/idea_vault_frontend_workspace/idea_vault_frontend/node_modules/esbuild/lib/main.js:601:7)
-      at Socket.emit (node:events:517:28)
-      at addChunk (node:internal/streams/readable:368:12)
-      at readableAddChunk (node:internal/streams/readable:341:9)
-      at Readable.push (node:internal/streams/readable:278:10)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
-6:50:56 AM [vite] (client) page reload src/components/NoteEditorModal.tsx
-6:51:09 AM [vite] (client) page reload src/components/NoteEditorModal.tsx
-6:51:19 AM [vite] (client) page reload src/components/NoteEditorModal.tsx
